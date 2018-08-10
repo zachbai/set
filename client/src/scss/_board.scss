@@ -1,0 +1,9 @@
+.board-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 10;
+	width: 800;
+	background-color: grey;
+}

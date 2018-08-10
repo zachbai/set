@@ -1,0 +1,37 @@
+{
+  "name": "set",
+  "version": "1.0.0",
+  "description": "online set",
+  "private": true,
+  "scripts": {
+    "start": "webpack --mode development && nodemon --exec babel-node server"
+  },
+  "repository": "https://github.com/zachbai/set.git",
+  "author": "Zachry Bai <zachrybai@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "express": "^4.16.3",
+    "node-sass": "^4.9.0",
+    "path": "^0.12.7",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.10.1",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-middleware": "^3.1.3"
+  }
+}

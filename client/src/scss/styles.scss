@@ -1,0 +1,13 @@
+@import 'constants';
+@import 'board';
+@import 'card';
+@import 'lobby';
+@import 'register';
+
+.app-container {
+	display: flex;
+	justify-content: center;
+	padding-top: 100;
+	height: 100%;
+	width: 100%;
+}

@@ -1,0 +1,24 @@
+.card-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	width: 180;
+	height: 130;
+	border-radius: 5px;
+	margin-bottom: 10;
+	font-family: 'Poppins', sans-serif;
+
+	&:hover {
+		background-color: lightgrey;
+	}
+
+	&.selected {
+		background-color: lightgrey;
+	}
+}
+
+.shape {
+	width: 50;
+}
